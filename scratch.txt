@@ -1,0 +1,12 @@
+INSERT INTO courses (name, code, nb_of_credits, description) VALUES ("Calculus III", "CALC324", 3, "This calculus course will teach you the basics of vector calculus and vector spaces");
+
+INSERT INTO courses (name, code, nb_of_credits, description) VALUES ("Database Design", "DB324", 2, "This calculus course will teach you the basics db design");
+
+|  2 | Economics For Engineers | ECON322 |             3 | This course teaches the fundamentals of economics to s
+tudents                       | 2025-10-20 01:04:14 | 2025-10-20 01:04:14 |
+|  3 | Calculus III            | CALC324 |             3 | This calculus course will teach you the basics of vect
+or calculus and vector spaces | NULL                | NULL                |
+|  4 | Database Design         | DB324   |             2 | This calculus course will teach you the basics db desi
+gn                            | NULL                | NULL                |
+
+$codes = [ECON322, CALC324, DB324];
